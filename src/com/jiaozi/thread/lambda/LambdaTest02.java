@@ -17,6 +17,12 @@ public class LambdaTest02 {
         });
         thread.start();
         new Thread(()->System.out.println("我是你爹")).start(); 
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("____测试");
+            }
+        }).start();
     }
 
 }

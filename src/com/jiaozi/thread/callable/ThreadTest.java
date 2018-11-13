@@ -13,7 +13,7 @@ public class ThreadTest {
 
     public static void main(String[] args) {
         ThreadDemo threadDemo = new ThreadDemo();
-        //用futureTask来接收值
+        //用futureTask来接收值 
         //FutureTask implement runnableFuture extends runnable,future
         FutureTask<Integer> result = new FutureTask<>(threadDemo);        
         new Thread(result).start();       
