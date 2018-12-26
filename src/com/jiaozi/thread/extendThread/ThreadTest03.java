@@ -17,9 +17,7 @@ public class ThreadTest03 {
             e.printStackTrace();
         }
         System.out.println("end---------"+myThread03.isAlive());
-
     }
-
 }
 
 class MyThread03 extends Thread{
