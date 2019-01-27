@@ -16,6 +16,7 @@ public class LambdaTest01 {
         strList.forEach((s)->System.out.println(s+"test"));
         System.out.println("hello");
         System.out.println("hello");
+        
         strList.forEach(System.out::print);
     }
 
