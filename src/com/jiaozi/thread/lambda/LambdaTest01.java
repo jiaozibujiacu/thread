@@ -14,7 +14,8 @@ public class LambdaTest01 {
         String[] str= {"test01","test02","test03","test04"};
         List<String> strList = Arrays.asList(str);
         strList.forEach((s)->System.out.println(s+"test"));
-        
+        System.out.println("hello");
+        System.out.println("hello");
         strList.forEach(System.out::print);
     }
 
